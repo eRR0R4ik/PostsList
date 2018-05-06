@@ -1,0 +1,24 @@
+# IDEs
+.project
+.pydevproject
+.settings
+.idea
+
+# Testing
+.pytest_cache/
+
+# Build system
+/build
+
+# Misc
+.DS_Store
+*.pyc
+*.pyo
+
+# Package managers (yarn, npm, etc)
+/node_modules
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
