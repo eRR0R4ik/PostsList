@@ -1,4 +1,4 @@
-import { postsConstants } from '../constants/';
+import { postsConstants } from '../constants';
 import Api from '../api';
 
 

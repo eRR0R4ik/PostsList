@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import RootPage from './containers/RootPage';
-// import 'assets/styles/style.scss';
 import { AppContainer } from 'react-hot-loader';
 
 

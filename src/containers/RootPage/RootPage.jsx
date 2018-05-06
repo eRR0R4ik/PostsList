@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import ContentPage from '../ContentPage';
 import Footer from '../../components/Footer';
 import store from '../../store';
+import './main.scss';
 
 
 export default class RootPage extends Component {

@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Navbar from '../Navbar';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="site-footer">
+      <Navbar />
+    </footer>
   );
 }
 

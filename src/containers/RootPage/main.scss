@@ -1,0 +1,26 @@
+@import './_variables.scss';
+@import '../../components/Header/Header.scss';
+@import '../../components/Footer/Footer.scss';
+@import '../../containers/ContentPage/ContentPage.scss';
+@import '../../components/Post/Post.scss';
+
+
+html {
+  background-color: #f0f0f0;
+}
+
+body {
+  color: $gray;
+  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

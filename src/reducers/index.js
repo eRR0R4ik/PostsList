@@ -1,8 +1,11 @@
 import { combineReducers } from 'redux';
-import postsReducer from './posts';
+import { allPosts } from './posts.reducer';
+import { etc } from './test.reducer';
+
 
 const appReducer = combineReducers({
-  postsReducer
+  allPosts,
+  etc
 })
 
-export default appReducer
+export default appReducer;
