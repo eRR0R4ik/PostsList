@@ -21,6 +21,10 @@ img {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .card {
   background-color: white;
   border-radius: 0.25rem;
@@ -64,7 +68,6 @@ img {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
     filter: contrast(70%);
-    //filter: saturate(180%);
     overflow: hidden;
     position: relative;
     transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;

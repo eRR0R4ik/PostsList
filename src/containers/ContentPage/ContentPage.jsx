@@ -24,7 +24,7 @@ class ContentPage extends Component {
             posts && posts.map(post => {
               return (
                 <li key={post.id} className="posts__item">
-                  <Post className="post" id={post.id} title={post.title} body={post.body} />
+                  <Post className="post" id={post.id} title={post.title} body={post.body}  />
                 </li>
               )
             })
