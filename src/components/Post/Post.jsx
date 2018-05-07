@@ -11,7 +11,9 @@ function Post(props) {
       <div className="card__content">
         <div className="card__title">{title}</div>
         <p className="card__text">{body}</p>
-        <button className="btn btn--block card__btn">More...</button>
+        <Link to={`${props.match.url}/${id}`}>
+          <button className="btn btn--block card__btn">More...</button>
+        </Link>
       </div>
     </div>
   );
@@ -20,7 +22,8 @@ function Post(props) {
 Post.propTypes = {
   title: PropTypes.string.isRequired,
   body: PropTypes.string.isRequired,
-  id: PropTypes.number.isRequired
+  id: PropTypes.number.isRequired,
+  match: PropTypes.object,
 };
 
 export default Post;
